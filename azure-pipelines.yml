@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  name: 'borsooq_pool'
 
 variables:
   solution: '**/*.sln'
